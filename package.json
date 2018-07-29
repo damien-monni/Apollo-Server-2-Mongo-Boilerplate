@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate-server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damien-monni/Apollo-Server-2-Mongo-Boilerplate"
+  },
+  "scripts": {
+    "start": "nodemon ./src/index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damien Monni <contact@damien-monni.com> (https://www.damien-monni.com)",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.0.0",
+    "bcrypt": "^3.0.0",
+    "graphql": "^0.13.2",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.1",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
